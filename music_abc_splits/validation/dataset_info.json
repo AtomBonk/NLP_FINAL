@@ -1,0 +1,48 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "music_abc_notation",
+  "dataset_size": 257177134,
+  "description": "",
+  "download_size": 102927832,
+  "features": {
+    "prompt": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "completion": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "full_input": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "is_valid": {
+      "dtype": "bool",
+      "_type": "Value"
+    },
+    "token_length": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 360104966,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 257177134,
+      "num_examples": 383940,
+      "dataset_name": "music_abc_notation"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

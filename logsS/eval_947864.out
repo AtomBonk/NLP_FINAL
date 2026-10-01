@@ -1,0 +1,110 @@
+
+[INFO] Starting Evaluation for column: ground_truth_completion...
+
+=================================================================
+🎵 COMPLETE ACCOMPANIMENT EVALUATION REPORT 🎵
+Target Column Evaluated: ground_truth_completion
+=================================================================
+Total Evaluated Samples: 384
+-----------------------------------------------------------------
+1. [SYNTAX] Task Validity (Compiles + Has V:2): 100.00%
+2. [FORMAT] Prompt Leakage (Model wrote V:1): 0.00%  <-- (Lower is better)
+3. [FORMAT] Missing Accompaniment Track:      0.00%  <-- (Lower is better)
+4. [TIME] Exact Bar Alignment Rate:           100.00%
+5. [TIME] Avg Bar Count Deviation:            0.00 bars
+6. [TIME] Time Signature Compliance:          100.00%
+-----------------------------------------------------------------
+7. [HARMONY] Scale Consistency (MusPy):       92.49%
+8. [HARMONY] Key Match V2 vs V2 (music21):    100.00%
+9. [HARMONY] Chord Sim V2 vs V2 (music21):    100.00%
+10.[HARMONY] V1-V2 Vertical Consonance:       99.55%
+11.[HARMONY] V1-V2 Key Compatibility:         52.63%
+-----------------------------------------------------------------
+12.[AUDIO] Domain-Matched FAD Score:          0.0000
+=================================================================
+[INFO] Cleaning up temporary workspace: temp_eval_a263927b ...
+[INFO] Cleanup complete.
+
+
+[INFO] Starting Evaluation for column: zero_shot_generated...
+
+=================================================================
+🎵 COMPLETE ACCOMPANIMENT EVALUATION REPORT 🎵
+Target Column Evaluated: zero_shot_generated
+=================================================================
+Total Evaluated Samples: 384
+-----------------------------------------------------------------
+1. [SYNTAX] Task Validity (Compiles + Has V:2): 0.00%
+2. [FORMAT] Prompt Leakage (Model wrote V:1): 97.14%  <-- (Lower is better)
+3. [FORMAT] Missing Accompaniment Track:      100.00%  <-- (Lower is better)
+4. [TIME] Exact Bar Alignment Rate:           0.00%
+5. [TIME] Avg Bar Count Deviation:            51.54 bars
+6. [TIME] Time Signature Compliance:          0.00%
+-----------------------------------------------------------------
+7. [HARMONY] Scale Consistency (MusPy):       0.00%
+8. [HARMONY] Key Match V2 vs V2 (music21):    0.00%
+9. [HARMONY] Chord Sim V2 vs V2 (music21):    0.00%
+10.[HARMONY] V1-V2 Vertical Consonance:       0.00%
+11.[HARMONY] V1-V2 Key Compatibility:         0.00%
+-----------------------------------------------------------------
+12.[AUDIO] Domain-Matched FAD Score:          N/A (Too few valid audio renderings)
+=================================================================
+[INFO] Cleaning up temporary workspace: temp_eval_b9cf001a ...
+[INFO] Cleanup complete.
+
+
+[INFO] Starting Evaluation for column: zero_shot_generated...
+[INFO] Transform Mode Active: Converting all V:1 tags to V:2 in generated output.
+
+=================================================================
+🎵 COMPLETE ACCOMPANIMENT EVALUATION REPORT 🎵
+Target Column Evaluated: zero_shot_generated
+Applied Transform: v1_to_v2
+=================================================================
+Total Evaluated Samples: 384
+-----------------------------------------------------------------
+1. [SYNTAX] Task Validity (Compiles + Has V:2): 91.41%
+2. [FORMAT] Prompt Leakage (Model wrote V:1): 0.00%  <-- (Lower is better)
+3. [FORMAT] Missing Accompaniment Track:      8.59%  <-- (Lower is better)
+4. [TIME] Exact Bar Alignment Rate:           0.00%
+5. [TIME] Avg Bar Count Deviation:            51.54 bars
+6. [TIME] Time Signature Compliance:          91.41%
+-----------------------------------------------------------------
+7. [HARMONY] Scale Consistency (MusPy):       89.88%
+8. [HARMONY] Key Match V2 vs V2 (music21):    32.29%
+9. [HARMONY] Chord Sim V2 vs V2 (music21):    12.12%
+10.[HARMONY] V1-V2 Vertical Consonance:       90.52%
+11.[HARMONY] V1-V2 Key Compatibility:         84.35%
+-----------------------------------------------------------------
+12.[AUDIO] Domain-Matched FAD Score:          0.4918
+=================================================================
+[INFO] Cleaning up temporary workspace: temp_eval_fba4394d ...
+[INFO] Cleanup complete.
+
+
+[INFO] Starting Evaluation for column: finetuned_generation...
+
+=================================================================
+🎵 COMPLETE ACCOMPANIMENT EVALUATION REPORT 🎵
+Target Column Evaluated: finetuned_generation
+=================================================================
+Total Evaluated Samples: 384
+-----------------------------------------------------------------
+1. [SYNTAX] Task Validity (Compiles + Has V:2): 100.00%
+2. [FORMAT] Prompt Leakage (Model wrote V:1): 0.00%  <-- (Lower is better)
+3. [FORMAT] Missing Accompaniment Track:      0.00%  <-- (Lower is better)
+4. [TIME] Exact Bar Alignment Rate:           99.74%
+5. [TIME] Avg Bar Count Deviation:            0.00 bars
+6. [TIME] Time Signature Compliance:          100.00%
+-----------------------------------------------------------------
+7. [HARMONY] Scale Consistency (MusPy):       95.72%
+8. [HARMONY] Key Match V2 vs V2 (music21):    34.90%
+9. [HARMONY] Chord Sim V2 vs V2 (music21):    34.81%
+10.[HARMONY] V1-V2 Vertical Consonance:       99.21%
+11.[HARMONY] V1-V2 Key Compatibility:         40.96%
+-----------------------------------------------------------------
+12.[AUDIO] Domain-Matched FAD Score:          0.0111
+=================================================================
+[INFO] Cleaning up temporary workspace: temp_eval_9d90f73c ...
+[INFO] Cleanup complete.
+

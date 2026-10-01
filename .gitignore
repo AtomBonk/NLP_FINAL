@@ -1,0 +1,41 @@
+nlp_env/
+.cache/
+hf_cache/
+processed_wikimusictext/
+results_llama3_lora/
+sanity_check_output/
+abcmidi
+temp_midi
+
+# Python/runtime artifacts
+__pycache__/
+*.py[cod]
+
+# Generated debugging and evaluation workspaces
+debug_abc_files/
+debug_gt*
+syntax_debug_output/
+syntax_debug_arrow_output/
+temp_eval_*/
+wav_ground_truth_cache/
+
+# Regenerable or obsolete datasets and model artifacts
+processed_music_abc/
+music_abc_splits_OLD/
+music_abc_splits_augmented_OLD/
+music_abc_splits_augmented/**/cache-*.arrow
+music_abc_splits/**/cache-*.arrow
+music_finetuned_model/*
+!music_finetuned_model/final/
+FluidR3_GM.sf2
+
+# Superseded manual-check and result outputs
+augmentation_logic_test.json
+transpose_test_output.json
+zero_shot_baseline_results_OLD.json
+
+# Job logs: retain only the final successful evaluation
+logs/
+logsS/*
+!logsS/eval_947864.out
+!logsS/eval_947864.err

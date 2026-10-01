@@ -1,0 +1,110 @@
+[
+    {
+        "exp_id": 11,
+        "learning_rate": 0.0003,
+        "num_train_epochs": 5,
+        "effective_batch_size": 24,
+        "lora_r": 16,
+        "eval_loss": 0.5944372415542603,
+        "train_loss": 0.5957564628124237
+    },
+    {
+        "exp_id": 7,
+        "learning_rate": 0.0002,
+        "num_train_epochs": 5,
+        "effective_batch_size": 24,
+        "lora_r": 16,
+        "eval_loss": 0.600182056427002,
+        "train_loss": 0.6180289709568023
+    },
+    {
+        "exp_id": 12,
+        "learning_rate": 0.0003,
+        "num_train_epochs": 5,
+        "effective_batch_size": 32,
+        "lora_r": 16,
+        "eval_loss": 0.6019865870475769,
+        "train_loss": 0.625811117887497
+    },
+    {
+        "exp_id": 8,
+        "learning_rate": 0.0002,
+        "num_train_epochs": 5,
+        "effective_batch_size": 32,
+        "lora_r": 16,
+        "eval_loss": 0.612032413482666,
+        "train_loss": 0.6461389049887657
+    },
+    {
+        "exp_id": 9,
+        "learning_rate": 0.0003,
+        "num_train_epochs": 3,
+        "effective_batch_size": 24,
+        "lora_r": 16,
+        "eval_loss": 0.6125547289848328,
+        "train_loss": 0.6714797417322794
+    },
+    {
+        "exp_id": 3,
+        "learning_rate": 0.0001,
+        "num_train_epochs": 5,
+        "effective_batch_size": 24,
+        "lora_r": 16,
+        "eval_loss": 0.6169969439506531,
+        "train_loss": 0.6722678196430206
+    },
+    {
+        "exp_id": 10,
+        "learning_rate": 0.0003,
+        "num_train_epochs": 3,
+        "effective_batch_size": 32,
+        "lora_r": 16,
+        "eval_loss": 0.6208112835884094,
+        "train_loss": 0.698376439511776
+    },
+    {
+        "exp_id": 5,
+        "learning_rate": 0.0002,
+        "num_train_epochs": 3,
+        "effective_batch_size": 24,
+        "lora_r": 16,
+        "eval_loss": 0.6239256858825684,
+        "train_loss": 0.6920385241508484
+    },
+    {
+        "exp_id": 4,
+        "learning_rate": 0.0001,
+        "num_train_epochs": 5,
+        "effective_batch_size": 32,
+        "lora_r": 16,
+        "eval_loss": 0.6254743933677673,
+        "train_loss": 0.7040221720933915
+    },
+    {
+        "exp_id": 6,
+        "learning_rate": 0.0002,
+        "num_train_epochs": 3,
+        "effective_batch_size": 32,
+        "lora_r": 16,
+        "eval_loss": 0.6307538747787476,
+        "train_loss": 0.7216471880674362
+    },
+    {
+        "exp_id": 1,
+        "learning_rate": 0.0001,
+        "num_train_epochs": 3,
+        "effective_batch_size": 24,
+        "lora_r": 16,
+        "eval_loss": 0.6558377146720886,
+        "train_loss": 0.7617488622665405
+    },
+    {
+        "exp_id": 2,
+        "learning_rate": 0.0001,
+        "num_train_epochs": 3,
+        "effective_batch_size": 32,
+        "lora_r": 16,
+        "eval_loss": 0.6927765011787415,
+        "train_loss": 0.8030508905649185
+    }
+]
